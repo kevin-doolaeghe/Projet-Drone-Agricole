@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1F6CAA</color>
+    <color name="colorPrimaryDark">#0D5692</color>
+    <color name="colorAccent">#2851A2</color>
+
+    <color name="colorBackground">#455B72</color>
+    <color name="colorWidget">#1F6CAA</color>
+    <color name="colorFont">#FFFFFF</color>
+
+    <color name="colorSplashScreen">#26596D</color>
+</resources>
