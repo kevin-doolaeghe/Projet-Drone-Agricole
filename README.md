@@ -223,3 +223,27 @@ Test des classes du drone.
 Dessin du trajet.
 Les requêtes HTTP fonctionnent.
 Dessin du trajet à terminer.
+
+27/05
+Volley : Ok
+Vol du drone : Ok
+Dessin du trajet : A faire
+
+28/05
+Interface gestion de vol du drone refait
+
+31/05
+Dessin des points
+
+01/06
+Dessin des points : Ok
+
+03/06
+Vol du drone : Ok
+Récupération des fichiers du drone : Ok
+
+05/06
+Implémentation de la récupération des fichiers pour envoi : A finir
+
+06/06
+?? Envoi des fichiers : Ok ??
