@@ -243,7 +243,7 @@ Vol du drone : Ok
 Récupération des fichiers du drone : Ok
 
 05/06
-Implémentation de la récupération des fichiers pour envoi : A finir
+Arrangement du code
 
 06/06
-?? Envoi des fichiers : Ok ??
+Envoi des fichiers
