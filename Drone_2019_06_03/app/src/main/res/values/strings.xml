@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Drone agricole</string>
+
+    <!-- Messages -->
+    <string name="msg_sdk_registering">SDK en cours d\'enregistrement, veuillez patienter..</string>
+    <string name="msg_sdk_register_success">SDK correctement enregistré</string>
+
+    <string name="msg_product_connected">Produit connecté</string>
+    <string name="msg_product_disconnected">Produit déconnecté</string>
+
+    <string name="msg_permission_grant_required">Need to grant the permissions !</string>
+
+    <string name="msg_add_plan_canceled">Ajout annulé</string>
+    <string name="msg_no_plan_added">Le plan n\'a pas pu être créé</string>
+    <string name="msg_edit_plan_canceled">Modification annulée</string>
+    <string name="msg_no_plan_edited">Le plan n\'a pas pu être modifié</string>
+
+    <string name="msg_mission_creation_success">Calcul du parcours terminé avec succès !!</string>
+    <string name="msg_no_mission_created">La mission n\'a pa pu être créée</string>
+    <string name="msg_waypoint_load_succeeded">Mission chargée avec succès :)</string>
+    <string name="msg_mission_upload_successfully">Envoi de la mission effectué avec succès !</string>
+    <string name="msg_retrying">Nouvelle tentative..</string>
+    <string name="msg_success">Succès</string>
+    <string name="msg_files_deleted">Les fichiers ont été supprimés.</string>
+
+    <string name="msg_download_success">Téléchargement terminé.</string>
+    <string name="msg_no_synthesis_found">Aucune analyse n\'a été effectuée</string>
+
+    <!-- Hints -->
+    <string name="hint_plan_id">12</string>
+    <string name="hint_plan_name">Mon plan</string>
+    <string name="hint_plan_lat1">50.696618</string>
+    <string name="hint_plan_lon1">3.197248</string>
+    <string name="hint_plan_lat2">50.696778</string>
+    <string name="hint_plan_lon2">3.197502</string>
+    <string name="hint_ip">http://172.16.64.11:8080/</string>
+    <string name="hint_min_altitude">10.0</string>
+    <string name="hint_max_altitude">15.0</string>
+
+    <!-- Errors -->
+    <string name="error_sdk_register_failure">Echec d\'enregistrement du SDK, veuillez vérifier votre conexion internet !</string>
+
+    <string name="error_missing_permissions">Permissions manquantes !</string>
+
+    <string name="error_invalid_params">Invalid parameters..</string>
+    <string name="error_no_internet">Aucune connexion..</string>
+    <string name="error_wrong_coordinates">Mauvaises coordonnées !</string>
+    <string name="error_gps_not_ready">Le GPS n\'est pas prêt..</string>
+    <string name="error_too_large_area">Zone à cartographier trop grand !</string>
+    <string name="error_drone_not_connected">Aucun drone connecté..</string>
+    <string name="error_mission_load_failed">Le chargement de la mission a échoué</string>
+    <string name="error_mission_upload_failed">L\'envoi de la mission a échoué.</string>
+    <string name="error_media_manager_busy">Le système est occupé.</string>
+    <string name="error_files_not_deleted">Erreur survenue lors de la suppression des fichiers..</string>
+
+    <!-- Titles -->
+    <string name="title_flight_plan_activity">Plans de vol</string>
+    <string name="title_add_flight_plan_activity">Ajout d\'un plan</string>
+    <string name="title_edit_flight_plan_activity">Modification d\'un plan</string>
+    <string name="title_menu_activity">Menu</string>
+    <string name="title_mission_activity">Gestion de la mission</string>
+
+    <string name="title_expedition_tab">Expédition</string>
+    <string name="title_synthesis_tab">Analyse</string>
+    <string name="title_viewer_tab">Visualisation</string>
+
+    <string name="title_status">Statut :</string>
+    <string name="title_gps_signal">Niveau du signal GPS :</string>
+    <string name="title_latitude">Latitude :</string>
+    <string name="title_longitude">Longitude :</string>
+    <string name="title_altitude">Altitude de vol :</string>
+    <string name="title_image_number">Images nécessaires :</string>
+    <string name="title_mission_start">Démarrage de la mission :</string>
+    <string name="title_mission_stop">Arrêt de la mission :</string>
+    <string name="title_mission_resume">Reprise de la mission :</string>
+    <string name="title_mission_pause">Mise en pause de la mission :</string>
+    <string name="title_start_landing">Atterrissage :</string>
+    <string name="title_start_go_home">Retour à la maison :</string>
+    <string name="title_ip">Adresse IP du serveur :</string>
+    <string name="title_min_alititude">Altitude minimale de vol :</string>
+    <string name="title_max_alititude">Altitude maximale de vol :</string>
+    <string name="title_plan_id">Id :</string>
+    <string name="title_plan_name">Nom :</string>
+    <string name="title_plan_lat1">Lat. 1 :</string>
+    <string name="title_plan_lon1">Lon. 1 :</string>
+    <string name="title_plan_lat2">Lat. 2 :</string>
+    <string name="title_plan_lon2">Lon. 2 :</string>
+
+    <!-- Actions -->
+    <string name="action_settings">Paramètres</string>
+    <string name="action_add_flight_plan">Ajouter</string>
+    <string name="action_edit_flight_plan">Modifier</string>
+    <string name="action_calculate_mission">Calculer l\'itinéraire</string>
+    <string name="action_start_mission">Démarrer</string>
+    <string name="action_stop_mission">Arrêter</string>
+    <string name="action_upload_mission">Upload</string>
+    <string name="action_pause_mission">Mettre en pause</string>
+    <string name="action_resume_mission">Reprendre</string>
+    <string name="action_land_drone">Attérir</string>
+    <string name="action_start_synthesis">Démarrer la synthèse</string>
+    <string name="action_send_images">Envoyer les images</string>
+    <string name="action_validate">Ok</string>
+</resources>
