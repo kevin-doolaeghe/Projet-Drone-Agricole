@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".view.ExpeditionFragment">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_horizontal_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".4" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_horizontal_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".55" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_horizontal_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".7" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_horizontal_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".85" />
+
+    <SurfaceView
+        android:id="@+id/surface_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_horizontal_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_calculate_mission"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="20dp"
+        android:backgroundTint="@color/colorWidget"
+        android:text="@string/action_calculate_mission"
+        android:textColor="@color/colorFont"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_horizontal_1"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline_horizontal_2" />
+
+    <TextView
+        android:id="@+id/text_mission_infos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorFont"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_horizontal_2"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline_horizontal_3" />
+
+    <TextView
+        android:id="@+id/text_mission_status"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorFont"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_horizontal_3"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline_horizontal_4" />
+
+    <TextView
+        android:id="@+id/text_drone_position"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorFont"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_horizontal_4"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
