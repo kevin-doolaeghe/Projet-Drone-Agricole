@@ -6,4 +6,4 @@
 
 ## Auteur
 
-Kevin Doolaeghe
+**Kevin Doolaeghe**
