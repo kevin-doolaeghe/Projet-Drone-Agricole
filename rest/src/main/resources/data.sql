@@ -1,0 +1,1 @@
+INSERT INTO FLIGHT_PLAN (id, name, lat1, lon1, lat2, lon2) VALUES ('1', 'test', '50.696591', '3.197263', '50.696788', '3.197506')
