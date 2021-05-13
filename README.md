@@ -4,6 +4,8 @@
 * Communication avec un serveur RESTful pour échanger les images prises.  
 * Architecture MVVC (Model-View-View Model) utilisée pour le projet.  
 
+Markup :  - - - -
+
 ## Auteur
 
-**Kevin Doolaeghe**
+### Kevin Doolaeghe
