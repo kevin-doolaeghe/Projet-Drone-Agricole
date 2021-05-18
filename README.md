@@ -1,4 +1,4 @@
-# Projet Drone Agricole
+# BTS SNIR | 2e année - Projet Drone Agricole
 
 ## Présentation
 
